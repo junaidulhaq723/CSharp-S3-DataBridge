@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-S3ParquetWorkerService-556fcef8-1969-4282-b7f1-d13d6be65f9e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="4.0.3.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.10" />
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.1.12" />
+    <PackageReference Include="AWSSDK.S3" Version="4.0.7.14" />
+    <PackageReference Include="Parquet.Net" Version="5.3.0" />
+    <PackageReference Include="LiteDB" Version="5.0.17" />
+  </ItemGroup>
+</Project>
