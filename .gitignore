@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/S3ParquetWorkerService/data/heartbeats.csv
+/S3ParquetWorkerService/data/heartbeats.db
